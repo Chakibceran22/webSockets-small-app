@@ -16,7 +16,7 @@ const Header = ({darkMode, setDarkMode, isMobileView, toggleMobileMenu, showMobi
                 <div className="flex items-center">
                   <div className="relative">
                     <div className="h-10 w-10 rounded-full bg-gray-300 flex items-center justify-center mr-2 overflow-hidden">
-                      <img src="/api/placeholder/40/40" alt="Avatar" className="h-full w-full object-cover" />
+                      <img src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Avatar" className="h-full w-full object-cover" />
                       <div className="absolute bottom-0 right-0 h-2 w-2 rounded-full bg-green-500 border-2 border-white"></div>
                     </div>
                   </div>
@@ -40,12 +40,12 @@ const Header = ({darkMode, setDarkMode, isMobileView, toggleMobileMenu, showMobi
               <div className="flex items-center">
                 <div className="relative">
                   <div className="h-12 w-12 rounded-full bg-gray-300 flex items-center justify-center mr-3 overflow-hidden">
-                    <img src="/api/placeholder/48/48" alt="Avatar" className="h-full w-full object-cover" />
+                    <img src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Avatar" className="h-full w-full object-cover" />
                     <div className="absolute bottom-0 right-0 h-3 w-3 rounded-full bg-green-500 border-2 border-white"></div>
                   </div>
                 </div>
                 <div>
-                  <h1 className="font-bold text-lg">Alex Johnson</h1>
+                  <h1 className="font-bold text-lg">Carl Jacobs</h1>
                   <p className="text-xs opacity-80">Online • Last seen just now</p>
                 </div>
               </div>
