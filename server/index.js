@@ -11,10 +11,13 @@ const io = new Server(httpServer, {
 });
 
 io.on('connection', (socket) => {
-    console.log('a user connected');
-    socket.on('message', (msg) => {
-        console.log(msg)
-        io.emit('message', msg);
+    console.log('a user connected:', socket.id);
+    socket.on('sendMessage',({message, sender}) => {
+        console.log("message recived", message, sender);
+        io.emit('receiveMessage', {message, sender});
+    } )
+    socket.on('disocnnect', () => {
+        console.log('a user disconnected:' , socket.id);
     })
 })
 
